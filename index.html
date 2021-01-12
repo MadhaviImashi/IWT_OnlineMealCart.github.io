@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meal Cart</title>
+    <link rel="stylesheet" type="text/css" href="H&F styles/main.css" />
+    <link rel="icon" href="H&F images/logo.jpg"/>
+    <link rel="stylesheet" type="text/css" href="css/MealCartStyles.css" />
+  <script src="js/MealCartScript.js" async></script>
+  </head>
+  <body>
+                                    <!--Header part begins from here-->
+    <header>
+      <img class="logo-icon" src="H&F images/logo.jpg" />
+      <!--Top Buttons-->
+      <div class="top-buttons">
+        <a href="">
+          <div class="topbtn">
+            <img src="H&F images/avatar.png" width="25px" alt="" />
+            <p>Login</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="topbtn">
+            <img src="H&F images/register.ico" width="25px" alt="" />
+            <p>Register</p>
+          </div>
+        </a>
+      </div>
+      <!--Side Buttons-->
+      <div class="topbtn profile">
+        <a href="../User Account Page/general info.html">
+          <img src="H&F images/user_logo.png" width="25px" alt="" />
+          <p>Profile</p>
+        </a>
+      </div>
+      <div class="topbtn cart">
+        <a href="">
+          <img src="H&F images/cart_logo.png" width="25px" alt="" />
+          <p>Cart</p>
+        </a>
+      </div>
+      <!--Navigation Bar-->
+      <nav>
+        <ul class="main-ul ul1">
+          <li><a href="Meal Cart.html"> Home </a></li>
+          <li><a href="categories.html"> Categories </a></li>
+          <li><a href="deals.html"> Today's Deals </a></li>
+          <li><a href="contact.html"> Contact Us </a></li>
+          <li><a href="about.html"> About Us </a></li>
+        </ul>
+        <!--Search Bar-->
+        <input id="search" type="text" placeholder="Search" />
+        <button id="searchBtn">
+          <img class="seachico" src="H&F images/s.webp" alt="" />
+        </button>
+      </nav>
+    </header>
+
+                                <!--page content begins from here-->
+    <section >
+            <div class="wrappAll">
+              <div class="wrapper1">
+                <center>
+                  <section>
+                    <h2>SRI LANKAN FOODS</h2>
+                    <div class="mealRange">                     
+                      <div class="meal">
+                        <span class="mealNameBig">lasagna</span><br>
+                        <img class="mealImageBig" src="img/lasagna.jpg">
+                        <div class="mealDetails">
+                          <span class="mealPriceBig"> RS: 400.00</span><br>
+                          <button class="addToCart">ADD TO CART</button>
+                        </div><!--mealDetails-->
+                      </div><!--meal-->
+                      <div class="meal">
+                        <span class="mealNameBig">Vegi Fried Rice</span><br>
+                        <img class="mealImageBig" src="img/vegi fried rice.jpg">
+                        <div class="mealDetails">
+                          <span class="mealPriceBig"> RS: 500.00</span><br>
+                          <button class="addToCart">ADD TO CART</button>
+                        </div><!--mealDetails-->
+                      </div><!--meal-->
+                      <div class="meal">
+                        <span class="mealNameBig">Vegi Pasta</span><br>
+                        <img class="mealImageBig" src="img/vegitable pasta.jpg">
+                        <div class="mealDetails">
+                          <span class="mealPriceBig"> RS: 350.00</span><br>
+                          <button class="addToCart">ADD TO CART</button>
+                        </div><!--mealDetails-->
+                      </div><!--meal-->       
+                    </div><!--mealRange-->
+                  </section>
+
+                  <section>
+                    <h2>INDIAN FOODS</h2>
+                    <div class="mealRange">
+                      <div class="meal">
+                        <span class="mealNameBig">Cheese pizza</span><br>
+                        <img class="mealImageBig" src="img/cheese pizza.jpg">
+                        <div class="mealDetails">
+                          <span class="mealPriceBig"> RS: 400.00</span><br>
+                          <button class="addToCart">ADD TO CART</button>
+                        </div><!--mealDetails-->
+                      </div><!--meal-->
+                      <div class="meal">
+                        <span class="mealNameBig">Pepperoni Pizza</span><br>
+                        <img class="mealImageBig" src="img/pepperoni pizza.jpg">
+                        <div class="mealDetails">
+                          <span class="mealPriceBig"> RS: 500.00</span><br>
+                          <button class="addToCart">ADD TO CART</button>
+                        </div><!--mealDetails-->
+                      </div><!--meal-->
+                      <div class="meal">
+                        <span class="mealNameBig">Penne Pasta</span><br>
+                        <img class="mealImageBig" src="img/penne pasta.jpg">
+                        <div class="mealDetails">
+                          <span class="mealPriceBig"> RS: 350.00</span><br>
+                          <button class="addToCart">ADD TO CART</button>
+                        </div><!--mealDetails-->
+                      </div><!--meal-->       
+                    </div><!--mealRange-->
+                  </section>
+                </center> 
+              </div><!--wrapper1-->
+                  
+                                                  <!--cart Section begins-->
+              <div class="wrapper2">      
+                  <div class="cartPageHeading">
+                      <h1 id="cartPageHeading">My Cart</h1>
+                      <img id="cartLogo" src="img/cart_logo.png">
+                  </div><!--cartPageHeading-->
+
+                  <div class="pageContentContainer">
+                    <div class="cartRow">
+                      <span class="cartItem cartHeader cartColumn">ITEM</span>
+                      <span class="cartPrice cartHeader cartColumn">PRICE</span>
+                      <span class="cartQuantity cartHeader cartColumn">QUANTITY</span>  
+                    </div><!--cartRow-->
+
+                    <div class="cartItems">                      
+                    </div><!--cartItems-->
+                    <br><br>
+                    
+                    <div class="total">
+                        <strong id="totalTitle">Total: </strong>
+                        <span id="total">RS: 00.00</span><br><br>
+                      <center><button id="checkout">CHECKOUT</button></center>
+                    </div><!--total-->
+              
+                  </div><!--pageContentContainer-->
+
+              </div><!--wrapper2-->
+            </div><!--wrappAll-->
+    </section>
+    
+                                        <!--Footer Content begins from here-->
+    <div class="footer-container">
+      <!--Payment Methods-->
+      <div class="payment">
+        <p class="paytext">Payment Methods</p>
+        <br />
+        <img class="pay-img" src="H&F images/payment_method.png" /><br />
+        <img class="cod" src="H&F images/cod.png" />
+      </div>
+      <!--Newsletter Subscription Bar-->
+      <div class="newsletter">
+        <input id="news" type="email" placeholder="Email" />
+        <button class="subBtn">Subscribe</button>
+      </div>
+      <!--Available Platforms-->
+      <div class="mob-plat">
+        <img class="mob-img" src="H&F images/mobile_platform.png" />
+      </div>
+    </div>
+    <!--Copyright Statement-->
+    <center class="copyright">
+      Copyright &copy; 2020 Grab&Eat - All Rights Reserved.
+    </center>
+  </body>
+</html>

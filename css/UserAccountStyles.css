@@ -1,0 +1,231 @@
+
+.wrapper1{
+	background-image: url("../img/rice2.jpeg");
+	background-color:  #cccccc;
+	background-blend-mode: multiply;
+	/*width: 1500px;*/
+	margin: 0 auto;
+}
+
+.wrapper2{
+	width: 550px;
+	margin: 0 auto;
+	background-color: #c0a33a;
+}
+h1{
+	float: right;
+	margin-right: 180px;
+	margin-top: 80px;
+	color: #333;
+	font-size: 40px;
+}
+
+#profileTitle{
+	color: #997a00;
+	text-align: center;
+}
+
+#pic{
+	filter: grayscale(50%);
+	border-radius: 100%;
+	margin: 15px;
+	margin-top: 10px;
+	float: left;/*extra*/
+}
+#navigator{
+	margin-top: 0px;
+	margin:15px;
+	width: 500px;
+	margin: auto;
+	clear: both;/*extra*/
+}
+
+ ul{
+	list-style: none;
+	padding: 15px;
+	background: #333;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+
+ li{
+	display: inline;
+	padding-right: 50px;
+}
+
+#navigator a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+#navigator a:hover{
+	background-color: #cd9e2e;/*padding color*/
+	padding:10px; /* display the pagelink in a gray color square background of 11px size*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	 font-size: 17px;
+	font-weight:bold;
+	border-radius: 5px;
+	color: black;
+}
+
+#form{
+	margin:auto;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	padding: 20px;
+	width: 470px;
+	height: 500px;
+	background: white;/*#bfbfbf*/
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+label{
+	padding-bottom:30px;
+	padding-left: 40px;
+	color: #111;
+}
+
+input{
+	background: white;
+	display: inline-block;
+	float: right;
+	padding-right: 50px;
+	border-color: white;
+	border-radius: 3px;
+}
+textarea{
+	background: white;
+	float: right;
+	padding-right: 40px;
+	border-color: white;
+	border-radius: 3px;
+	height: 50px;
+}
+
+.formBtn{
+	float: right;
+	margin-right:10px;
+	padding:10px;
+	border-radius: 5px;
+	background: #333;
+	color: white;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.contentWrapper{
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 500px;
+	/*height: 550px;  /*temporarily set the height for easyness*/
+	background-color: white;
+	border-radius: 5px;
+}
+
+						/*order page styles part begins from here*/
+
+#orderTopic{
+	margin-left: 40px;
+	color: 
+}
+.orderHeader{
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+	margin-left: 70px;
+}
+
+.orderColumn{
+	display: flex;/*to place the items in the column like a row*/
+	align-items: center; /*to get the item in the column to the 
+	middle of the row(top margin=bottom margin)*/
+	/*border-bottom: 1px solid black;
+	margin-right: 20px;/*to add a space between two columns*/
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.orderRow{
+	display: flex;/*to line the items in a row*/
+}
+
+.orderedItem{
+	width: 45%;
+}
+
+.orderDetails{
+	width: 20%;
+	font-size: 16px;
+	color: #333;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.orderData{
+	width: 35%;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.mealName{
+	color: #333;
+	margin-left: 50px;
+	font-size: 15px;
+}
+
+.mealImage{
+	width: 85px;
+	height: 75px;
+	margin-top: 10px;
+	margin-left: 50px;
+	border-radius: 10px;
+}
+
+.orderRow{
+	border-bottom: 1px solid black;
+}
+
+							/*styles of FAVORITES page begins from here*/
+
+.meal{
+	
+	background-color: white;
+	border-radius: 5px;
+	margin: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: 1px solid black;
+}
+
+.mealImageBig{
+	height: 120px;
+	width: 150px;
+	margin: 5px;
+}
+ 
+.favButton{
+	width: 150px;
+	height: 35px;
+	color: white;
+	background-color: #e60000;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.favButton:hover{
+	background-color: #CC4C4C;
+}
+
+.addLink{
+	color: #577f01;
+}
+
+.addLink: hover{
+	background-color:#70a401; 
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Account</title>
+    <link rel="stylesheet" type="text/css" href="H&F styles/main.css" />
+    <link rel="icon" href="H&F images/logo.jpg"/>
+    <link rel="stylesheet" type="text/css" href="css/UserAccountStyles.css" />
+  <script src="js/MealCartScript.js" async></script>
+  <script src="js/userAccount.js" async></script>
+  </head>
+  <body>
+                                    <!--Header part begins from here-->
+    <header>
+      <img class="logo-icon" src="H&F images/logo.jpg" />
+      <!--Top Buttons-->
+      <div class="top-buttons">
+        <a href="">
+          <div class="topbtn">
+            <img src="H&F images/avatar.png" width="25px" alt="" />
+            <p>Login</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="topbtn">
+            <img src="H&F images/register.ico" width="25px" alt="" />
+            <p>Register</p>
+          </div>
+        </a>
+      </div>
+      <!--Side Buttons-->
+      <div class="topbtn profile">
+        <a href="">
+          <img src="H&F images/user_logo.png" width="25px" alt="" />
+          <p>Profile</p>
+        </a>
+      </div>
+      <div class="topbtn cart">
+        <a href="../Meal Cart Page/Meal Cart.html">
+          <img src="H&F images/cart_logo.png" width="25px" alt="" />
+          <p>Cart</p>
+        </a>
+      </div>
+      <!--Navigation Bar-->
+      <nav>
+        <ul class="main-ul ul1">
+          <li><a href="Homepage.html"> Home </a></li>
+          <li><a href="categories.html"> Categories </a></li>
+          <li><a href="deals.html"> Today's Deals </a></li>
+          <li><a href="contact.html"> Contact Us </a></li>
+          <li><a href="about.html"> About Us </a></li>
+        </ul>
+        <!--Search Bar-->
+        <input id="search" type="text" placeholder="Search" />
+        <button id="searchBtn">
+          <img class="seachico" src="H&F images/s.webp" alt="" />
+        </button>
+      </nav>
+    </header>
+
+                                <!--page content begins from here-->
+    <section >
+            <div class="wrapper1">
+              <div class="wrapper2">
+                <div class="profilePic">
+                  <h1>My Profile</h1>
+                  <img id="pic" src="img/prof3.jpg" width="150">
+                </div><!--profilePic-->
+                <div>
+                  <label for="customer name" value="default"></label>
+                  <div id="navigator">
+                    <ul>
+                      <li><a href="general info.html">General Information</a></li>
+                      <li><a href="orders.html">Orders</a></li>
+                      <li><a href="favorites.html">Favorites</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="contentWrapper">
+                  <center><br>
+				            <h2>Grab your favorite meals!</h2>
+					           
+                      <div class="meal">
+                        <span class="mealNameBig">lasagna</span><br>
+                        <img class="mealImageBig" src="img/lasagna.jpg"><br>
+                        <span class="mealPriceBig"> RS: 400.00</span><br>
+                        <a class="addLink" href="../Meal Cart with h&f/Meal Cart.html">ADD TO CART</a><br>
+                        <button class="favButton">Remove</button>                        
+                      </div><!--meal-->
+                      <div class="meal">
+                        <span class="mealNameBig">Vegi Fried Rice</span><br>
+                        <img class="mealImageBig" src="img/vegi fried rice.jpg"><br>
+                        <span class="mealPriceBig"> RS: 500.00</span><br>
+                        <a class="addLink" href="../Meal Cart with h&f/Meal Cart.html">ADD TO CART</a><br>
+                        <button class="favButton">Remove</button>
+                      </div><!--meal-->
+                      <div class="meal">
+                        <span class="mealNameBig">Vegi Pasta</span><br>
+                        <img class="mealImageBig" src="img/vegitable pasta.jpg"><br>
+                        <span class="mealPriceBig"> RS: 350.00</span><br>
+                        <a class="addLink" href="../Meal Cart with h&f/Meal Cart.html">ADD TO CART</a><br>
+                        <button class="favButton">Remove</button>
+                      </div><!--meal-->       
+                  </center>
+				        </div><!--contentWrapper-->
+                    
+              </div><!--wrapper2-->
+            </div><!--wrapper1-->
+    </section>
+    
+                                        <!--Footer Content begins from here-->
+    <div class="footer-container">
+      <!--Payment Methods-->
+      <div class="payment">
+        <p class="paytext">Payment Methods</p>
+        <br />
+        <img class="pay-img" src="H&F images/payment_method.png" /><br />
+        <img class="cod" src="H&F images/cod.png" />
+      </div>
+      <!--Newsletter Subscription Bar-->
+      <div class="newsletter">
+        <input id="news" type="email" placeholder="Email" />
+        <button class="subBtn">Subscribe</button>
+      </div>
+      <!--Available Platforms-->
+      <div class="mob-plat">
+        <img class="mob-img" src="H&F images/mobile_platform.png" />
+      </div>
+    </div>
+    <!--Copyright Statement-->
+    <center class="copyright">
+      Copyright &copy; 2020 Grab&Eat - All Rights Reserved.
+    </center>
+  </body>
+</html>

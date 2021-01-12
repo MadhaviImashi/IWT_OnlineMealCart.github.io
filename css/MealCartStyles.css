@@ -1,0 +1,210 @@
+
+.wrappAll{
+	background-color: white;
+	height: 900px;
+}
+
+.wrapper1{
+	background-image: url("../img/background2.jpg");
+	background-color:  #737373;
+	background-blend-mode: multiply;
+	width: 960px;
+	height: 890px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 20px;
+	color: white;
+	text-align: center;
+}
+
+.meal{
+	display: inline-block;
+	background-color: white;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+.mealImageBig{
+	height: 220px;
+	width: 230px;
+	margin: 5px;
+}
+
+.mealDetails{
+	margin: 10px;	
+}
+ 
+button{
+	width: 230px;
+	height: 35px;
+	background-color: #70a401;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
+button:hover{
+	background-color: #577f01;
+}
+
+
+						/*cart section begins*/
+
+
+.wrapper2{
+	background-color: white;
+	width: 500px;
+	margin-right:20px;
+	float: right;
+}
+
+.cartPageHeading{
+	display: inline-block;
+	margin: 5px;
+	background-color: #70a401;
+	border-radius: 5px;
+}
+
+#cartLogo{
+	height: 75px;
+	margin-top:15px;
+	margin-right: 106px;
+	margin-bottom: 15px;
+	padding:10px;
+	float: right;
+}
+#cartPageHeading{
+	float: left;
+	margin-left: 120px;
+	margin-top: 15px;
+	font-size: 40px;
+	padding: 10px;
+	color: white;
+}
+
+#checkout{
+	width: 450px;
+	height: 35px;
+	background-color: #70a401;
+	border-radius: 5px;
+	border-color: 	#70a401;
+	cursor: pointer;
+	font-size: 25px;
+	color: white;
+	margin-right: 20px;
+}
+#checkout:hover{
+	background-color: #577f01;
+}
+
+#totalTitle{
+	font-size: 25px;
+	margin-left: 35px;
+	float: left;
+	/*margin-top: 420px;*/
+}
+
+#total{
+	margin-right: 30px;
+	float: right;
+	font-size: 25px;
+	border-color: white;
+	border-width: 0px;
+	/*margin-top: 420px;*/
+}
+
+.cartHeader{
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+}
+
+.cartColumn{
+	display: flex;/*to place the items in the column like a row*/
+	align-items: center; /*to get the item in the column to the 
+	middle of the row(top margin=bottom margin)*/
+	border-bottom: 1px solid black;
+	margin-right: 20px;/*to add a space between two columns*/
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.cartRow{
+	display: flex;/*to line the items in a row*/
+}
+
+.cartItem{
+	width: 45%;
+}
+
+.cartPrice{
+	width: 20%;
+	font-size: 18px;
+	color: #333;
+}
+
+.cartQuantity{
+	width: 35%;
+}
+
+.mealName{
+	color: #333;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+.mealImage{
+	width: 85px;
+	height: 75px;
+	border-radius: 10px;
+}
+
+.removeButton{
+	color: white;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	background-color: #EB5757;
+	font-weight: bold;
+}
+
+.removeButton:hover{
+	background-color: #CC4C4C;
+}
+
+.mealQuantityInput{
+	height: 30px;
+	width: 50px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: #eee;
+	color: #333;
+	text-align: center;
+	font-size: 15px;
+	margin-right:15px;
+}
+
+.cartRow:last-child{/*to access the last item in the cart items section*/
+	border-bottom: 1px solid black;
+}
+
+.cartRow:last-child .cartColumn{
+	border: none;/*now those individual borders in each column will be removed*/
+}
+
+a{
+	color: #70a401;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #577f01;
+}
+
+
